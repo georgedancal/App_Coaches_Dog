@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_claro">#3378c3</color>
+    <color name="azul_marino">#7abcef</color>
+    <color name="azul">#145494</color>
+    <color name="maron">#aa6868</color>
+    <color name="arena">#cdcab9</color>
+    <color name="red">#cd262a</color>
+    <color name="azul_2">#93d9e8</color>
+    <color name="red_2">#9c060e</color>
+    <color name="cafe">#897662</color>
+    <color name="cafe_claro">#c6bdb0</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
