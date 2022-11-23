@@ -13,14 +13,14 @@
         android:theme="@style/Theme.AppCoachesDog"
         tools:targetApi="31">
         <activity
-            android:name=".view.ui.activities.Loguin"
+            android:name=".view.ui.activities.view.ui.activities.Loguin"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".view.ui.activities.Splash"
+            android:name=".view.ui.activities.view.ui.activities.Splash"
             android:exported="true">
 
             <intent-filter>
@@ -34,14 +34,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".view.ui.activities.Quienes_Somos"
+            android:name=".view.ui.activities.view.ui.activities.Quienes_Somos"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".view.ui.activities.MainActivity"
+            android:name=".view.ui.activities.view.ui.activities.MainActivity"
             android:exported="false">
 
             <meta-data

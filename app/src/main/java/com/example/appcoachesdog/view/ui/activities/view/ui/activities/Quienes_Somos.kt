@@ -1,12 +1,12 @@
-package com.example.appcoachesdog.view.ui.activities
+package com.example.appcoachesdog.view.ui.activities.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.appcoachesdog.R
 
-class MainActivity : AppCompatActivity() {
+class Quienes_Somos : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_quienes_somos)
     }
 }

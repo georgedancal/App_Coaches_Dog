@@ -1,4 +1,4 @@
-package com.example.appcoachesdog.view.ui.activities
+package com.example.appcoachesdog.view.ui.activities.view.ui.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +25,6 @@ class Splash : AppCompatActivity() {
             val intent= Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        },4000)
+        },6000)
     }
 }
