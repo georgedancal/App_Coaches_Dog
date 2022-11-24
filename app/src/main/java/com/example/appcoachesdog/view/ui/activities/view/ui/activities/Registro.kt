@@ -6,14 +6,14 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.appcoachesdog.R
 
-class Quienes_Somos : AppCompatActivity() {
-    lateinit var bthome:Button
+class Registro : AppCompatActivity() {
+    lateinit var btregistrodatos: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_quienes_somos)
-        bthome=findViewById(R.id.bthome)
-        bthome.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+        setContentView(R.layout.activity_registro)
+        btregistrodatos=findViewById(R.id.btregistrodatos)
+        btregistrodatos.setOnClickListener {
+            startActivity(Intent(this,Loguin::class.java))
         }
     }
 }
